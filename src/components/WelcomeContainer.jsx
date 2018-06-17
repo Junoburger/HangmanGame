@@ -9,5 +9,4 @@ class WelcomeContainer extends PureComponent {
     </div>)
   }
 }
-
 export default WelcomeContainer

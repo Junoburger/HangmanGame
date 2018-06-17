@@ -8,10 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
         <Route exact path="/" component={WelcomeContainer} />
         <Route exact path="/hangman" component={HangmanGameContainer} />
-
       </div>
     );
   }

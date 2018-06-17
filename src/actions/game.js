@@ -2,7 +2,7 @@ import {randomWord} from '../lib/game'
 
 export const NEW_GAME = 'NEW_GAME'
 export const MAKE_GUESS = 'MAKE_GUESS'
-export const CLEAR_THINGS = 'CLEAR_THINGS'
+
 
 
 export const newGame = (word, guesses) => {
