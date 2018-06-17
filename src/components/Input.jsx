@@ -1,13 +1,12 @@
 import React, {Component} from 'react'
 
-
 export class Input extends Component {
 
   handleClick = (event) => {
     if (this.props.guesses.includes(event.target.value)) {
       return this.event.value
     } else {
-      this.props.makeGuess(event.target.value.toLowerCase())
+      return this.props.makeGuess(event.target.value.toLowerCase())
     }
   }
   render() {

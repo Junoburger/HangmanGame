@@ -1,14 +1,14 @@
 * {
   font-family: 'IBM Plex Mono', monospace;
+}
 
+html {
+  background-color: rgb(240, 240, 240);
 }
-html{
-    background-color: rgb(240, 240, 240);
-}
+
 .App {
   text-align: center;
 }
-
 
 .App-header {
   background-color: #222;
@@ -24,14 +24,13 @@ html{
   font-size: 3em;
 }
 
-
 .button {
   outline: 0 none;
-  vertical-align:middle;
+  vertical-align: middle;
   display: inline-block;
   background-color: rgb(56, 187, 198);
   border-radius: 20px;
-  border:none;
+  border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
@@ -40,21 +39,19 @@ html{
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-
-
 }
-.button:hover{
+
+.button:hover {
   background-color: rgb(110, 221, 211);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-    transform: rotateX(20deg);
-
-
+  box-shadow: 0 20px 20px rgba(50, 50, 50, .2);
+  transform: rotateX(20deg);
 }
-.button:active{
+
+.button:active {
   background-color: rgba(157, 238, 231, 0.74);
   /* transition: .2s; */
-
 }
+
 .button span {
   cursor: pointer;
   display: inline-block;
@@ -80,38 +77,35 @@ html{
   right: 0;
 }
 
-.Input{
-  width:200px;
-  height:50px;
-  border-radius:20px;
+.Input {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
   outline: 0 none;
-
 }
-.containerAlph{
+
+.containerAlph {
   padding-right: 10px;
 }
 
-.AlphaBet{
-width: 40px;
-height: 40px;
-outline: 0 none;
-vertical-align:middle;
-display: inline-block;
-background-color: rgb(56, 187, 198);
-border-radius: 20px;
-border:none;
-color: #FFFFFF;
-text-align: center;
-border-radius: 10px;
-font-size: 18pt;
-
-
+.AlphaBet {
+  width: 40px;
+  height: 40px;
+  outline: 0 none;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: rgb(56, 187, 198);
+  border-radius: 20px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18pt;
 }
-.AlphaBet:hover{
+
+.AlphaBet:hover {
   background-color: rgb(110, 221, 211);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-    transform: rotateX(20deg);
-
-cursor: pointer;
-
+  box-shadow: 0 20px 20px rgba(50, 50, 50, .2);
+  transform: rotateX(20deg);
+  cursor: pointer;
 }

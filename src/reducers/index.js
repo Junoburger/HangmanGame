@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import hangman from './game'
+import reducers from './game'
 
 const rootReducer = combineReducers({
-  hangman
+  reducers
 })
 
 export default rootReducer

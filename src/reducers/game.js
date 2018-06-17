@@ -5,7 +5,6 @@ const initialState = {
   word: '',
   guesses: []
 }
-
 export default(state = initialState, action = {}) => {
   switch (action.type) {
     case NEW_GAME:
